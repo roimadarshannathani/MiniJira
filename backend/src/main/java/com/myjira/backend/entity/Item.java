@@ -21,7 +21,7 @@ public class Item {
 
     private String title;
     private String description;
-    private String status; // "TODO", "IN_PROGRESS", "DONE"
+    private String status;
     private LocalDate dueDate;
 
     @ManyToOne

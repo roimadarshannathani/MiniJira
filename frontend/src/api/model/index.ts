@@ -7,5 +7,8 @@
 
 export * from './apiResponseItem';
 export * from './apiResponseListItem';
+export * from './apiResponseString';
+export * from './apiResponseUser';
 export * from './item';
+export * from './role';
 export * from './user';

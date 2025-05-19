@@ -4,5 +4,13 @@
  * OpenAPI definition
  * OpenAPI spec version: v0
  */
+import type { Item } from './item';
+import type { Role } from './role';
 
-export interface User { [key: string]: unknown }
+export interface User {
+  id?: number;
+  username?: string;
+  password?: string;
+  items?: Item[];
+  roles?: Role[];
+}

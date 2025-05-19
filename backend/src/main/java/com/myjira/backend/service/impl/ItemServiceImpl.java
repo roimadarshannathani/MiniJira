@@ -21,7 +21,6 @@ public class ItemServiceImpl implements ItemService {
     @Override
     public void addItem(Item item) {
         try{
-//            item.setUser(userRepository.findAll().get(0));
             itemRepository.save(item);
         } catch (Exception e){
             throw new RuntimeException(e);
